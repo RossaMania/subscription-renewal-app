@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRevewalApp\\SubscriptionRevewalApp.csproj": {}
+    "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRenewalApp\\SubscriptionRenewalApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRevewalApp\\SubscriptionRevewalApp.csproj": {
+    "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRenewalApp\\SubscriptionRenewalApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRevewalApp\\SubscriptionRevewalApp.csproj",
-        "projectName": "SubscriptionRevewalApp",
-        "projectPath": "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRevewalApp\\SubscriptionRevewalApp.csproj",
+        "projectUniqueName": "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRenewalApp\\SubscriptionRenewalApp.csproj",
+        "projectName": "SubscriptionRenewalApp",
+        "projectPath": "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRenewalApp\\SubscriptionRenewalApp.csproj",
         "packagesPath": "C:\\Users\\racle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRevewalApp\\obj\\",
+        "outputPath": "C:\\Users\\racle\\CODEZZZ\\CsharpProjects\\Subscriptions\\SubscriptionRenewalApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\racle\\AppData\\Roaming\\NuGet\\NuGet.Config"
