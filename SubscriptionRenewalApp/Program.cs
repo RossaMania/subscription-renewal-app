@@ -54,15 +54,20 @@ if (daysUntilExpiration > 10)
 } else if (daysUntilExpiration == 1)
 {
     discountPercentage = 20;
-    Console.WriteLine($"Your subscription expires within a day! Renew now and save {discountPercentage}%!");
+    Console.WriteLine($"Your subscription expires within a day!");
 } else if (daysUntilExpiration == 0)
 {
     Console.WriteLine("Your subscription has expired.");
 } else if (daysUntilExpiration <= 5)
 {
     discountPercentage = 10;
-    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days. Renew now and save {discountPercentage}%!");
+    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
 }  else if (daysUntilExpiration <= 10)
 {
     Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+
+if (discountPercentage > 0)
+{
+    Console.WriteLine($"Renew now and save {discountPercentage}%.");
 }
