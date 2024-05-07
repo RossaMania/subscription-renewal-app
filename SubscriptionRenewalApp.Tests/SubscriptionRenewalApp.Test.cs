@@ -50,6 +50,6 @@ public class SubscriptionRenewalServiceTests
     public void GetRenewalMessage_ReturnsExpectedMessage(int daysUntilExpiration, string expectedMessage)
     {
         string actualMessage = _service.GetRenewalMessage(daysUntilExpiration);
-        Assert.AreEqual(expectedMessage, actualMessage);
+        Assert.That(actualMessage, Is.EqualTo(expectedMessage));
     }
 }
