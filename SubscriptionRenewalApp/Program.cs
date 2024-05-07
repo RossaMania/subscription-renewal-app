@@ -20,7 +20,8 @@ if (daysUntilExpiration <= 10)
 
 if (daysUntilExpiration <= 5)
 {
-    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days. Renew now and save 10%!");
+    discountPercentage = 10;
+    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days. Renew now and save {discountPercentage}%!");
 }
 
 // If the user's subscription will expire in one day, display the messages:
@@ -29,7 +30,8 @@ if (daysUntilExpiration <= 5)
 
 if (daysUntilExpiration == 1)
 {
-    Console.WriteLine("Your subscription expires within a day! Renew now and save 20%!");
+    discountPercentage = 20;
+    Console.WriteLine($"Your subscription expires within a day! Renew now and save {discountPercentage}%!");
 }
 
 // If the user's subscription has expired, display the message:
