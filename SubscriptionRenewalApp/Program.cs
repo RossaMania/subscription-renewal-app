@@ -10,9 +10,7 @@ namespace SubscriptionRenewalApp
     static void Main(string[] args)
     {
 
-      Random random = new Random();
-      int daysUntilExpiration = random.Next(12);
-      int discountPercentage = 0;
+      
 
       // Your code goes here
 
@@ -58,6 +56,9 @@ namespace SubscriptionRenewalApp
       //     Console.WriteLine("");
       // }
 
+      Random random = new Random();
+      int daysUntilExpiration = random.Next(12);
+      int discountPercentage = 0;
 
       if (daysUntilExpiration > 10)
       {
