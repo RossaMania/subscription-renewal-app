@@ -1,3 +1,5 @@
+Thank you for checking out my project! Connect with me on LinkedIn! https://www.linkedin.com/in/ross-clettenberg/
+
 # Subscription Renewal App
 
 This console application is designed to enhance the subscription renewal process for a software system by notifying users when their subscription is nearing expiration and offering discounts for renewal.
